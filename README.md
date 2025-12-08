@@ -1,4 +1,4 @@
-# Rewrite-Automation-
+# Rewrite-Automation inc
 Rewrite Automation Website
 Copyright (c) 2025 Rewrite Automation Inc. All rights reserved.
 
