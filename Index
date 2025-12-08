@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rewrite Automation – Ignition-First Industrial Integrator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Rewrite Automation delivers Ignition-based SCADA, Perspective, MES, and enterprise architectures for modern industrial plants."
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">
+        <span class="logo-mark">R</span>
+        <span class="logo-text">Rewrite Automation</span>
+      </div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#industries">Industries</a>
+        <a href="#results">Results</a>
+        <a href="#support">Support</a>
+        <a href="#about">About Us</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home">
+    <section class="hero">
+      <div class="hero-ring"></div>
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Ignition-First Industrial Automation</h1>
+          <p>
+            Rewrite Automation helps plants unlock the full power of
+            <strong>Inductive Automation’s Ignition</strong> – from SCADA and
+            Ignition Perspective to MES and enterprise architectures – with a
+            clean, low-drama execution model.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn primary">Schedule Ignition Consult</a>
+            <a href="#services" class="btn ghost">View Services</a>
+          </div>
+          <div class="hero-tags">
+            <span>Ignition SCADA</span>
+            <span>Ignition Perspective</span>
+            <span>MES & OEE</span>
+            <span>Enterprise Architectures</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Ignition Services</h2>
+        <p class="section-intro">
+          Everything we deliver is built around <strong>Ignition</strong>.
+          We bridge controls, data, and operations so the whole plant – from
+          operators to leadership – sees one version of the truth.
+        </p>
+
+        <div class="grid cards-4">
+          <article class="card">
+            <h3>Ignition SCADA & HMI</h3>
+            <p>
+              Modern SCADA built on Ignition: secure gateways, clean tag
+              models, fast HMIs, and solid historian and reporting.
+            </p>
+            <ul>
+              <li>Legacy SCADA migrations</li>
+              <li>High-performance HMI design</li>
+              <li>Alarming, logging & reports</li>
+              <li>Standard tag structures</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Ignition Perspective Apps</h3>
+            <p>
+              Web and mobile UIs for the plant floor, maintenance, and
+              leadership – all from Ignition Perspective.
+            </p>
+            <ul>
+              <li>Responsive dashboards</li>
+              <li>Mobile checklists & workflows</li>
+              <li>Role-based navigation</li>
+              <li>QR / barcode / GPS features</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>MES & OEE on Ignition</h3>
+            <p>
+              Turn raw data into production intelligence using MES modules:
+              OEE, downtime, traceability, and quality.
+            </p>
+            <ul>
+              <li>OEE & downtime tracking</li>
+              <li>Production & order tracking</li>
+              <li>Traceability & quality data</li>
+              <li>KPI & scorecard dashboards</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Enterprise & Cloud Architectures</h3>
+            <p>
+              Design multi-site Ignition deployments with secure IT/OT
+              integration and data ready for analytics.
+            </p>
+            <ul>
+              <li>Edge + central gateways</li>
+              <li>Multi-site standards & libraries</li>
+              <li>Secure VPN / DMZ patterns</li>
+              <li>Cloud databases & APIs</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Industries -->
+    <section id="industries" class="section section-alt">
+      <div class="container">
+        <h2>Industries We Serve</h2>
+        <p class="section-intro">
+          Ignition is flexible enough for almost any process. We bring
+          industry-specific standards so you don’t start from zero.
+        </p>
+
+        <div class="grid cards-4">
+          <article class="card">
+            <h3>Manufacturing</h3>
+            <p>
+              Line and cell level control, plant-wide SCADA, OEE and downtime
+              analytics, and operator guidance in Ignition Perspective.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Food & Beverage</h3>
+            <p>
+              Batch, CIP/SIP, regulatory reporting, and quality dashboards
+              with clean audit trails and easy-to-read HMIs.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Water & Wastewater</h3>
+            <p>
+              Distributed stations, wells, and plants unified into a single
+              Ignition system with robust alarming and remote access.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Energy & Utilities</h3>
+            <p>
+              Real-time status, alarms, and history for substations, solar,
+              and distributed assets with web-based visibility.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section id="results" class="section">
+      <div class="container">
+        <h2>Project Outcomes</h2>
+        <p class="section-intro">
+          A typical Ignition engagement moves from a focused pilot to a
+          repeatable architecture that can span plants and sites.
+        </p>
+
+        <div class="grid cards-3">
+          <article class="card">
+            <h3>Pilot SCADA Replacement</h3>
+            <p>
+              Swap one legacy node for Ignition, standardize tags and screens,
+              and prove value quickly with better alarms and data.
+            </p>
+            <ul>
+              <li>Unified alarming and logging</li>
+              <li>Operator-friendly screens</li>
+              <li>Faster troubleshooting</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Perspective Dashboards</h3>
+            <p>
+              Role-based dashboards for production, maintenance and
+              management – accessible on any browser or tablet.
+            </p>
+            <ul>
+              <li>Plant scorecards</li>
+              <li>Real-time OEE & KPIs</li>
+              <li>Secure remote visibility</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Standardized Enterprise Rollout</h3>
+            <p>
+              Expand Ignition across multiple lines, plants, or regions using
+              reusable templates and shared libraries.
+            </p>
+            <ul>
+              <li>Shared themes & components</li>
+              <li>Central data model</li>
+              <li>Consistent UX from site to site</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Support -->
+    <section id="support" class="section section-alt">
+      <div class="container">
+        <h2>Support & Lifecycle Services</h2>
+        <p class="section-intro">
+          Projects are just the starting point. We keep Ignition healthy,
+          secure, and ready for change with ongoing support.
+        </p>
+
+        <div class="grid cards-2">
+          <article class="card">
+            <h3>Proactive Support</h3>
+            <p>
+              A structured plan for plants that want stability and zero
+              surprises.
+            </p>
+            <ul>
+              <li>Regular gateway health checks</li>
+              <li>Tested backup & restore plans</li>
+              <li>Security & upgrade guidance</li>
+              <li>Annual architecture review</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>On-Demand Support</h3>
+            <p>
+              Fast help when something breaks or needs a small enhancement.
+            </p>
+            <ul>
+              <li>Remote troubleshooting</li>
+              <li>Emergency response options</li>
+              <li>Minor changes & tweaks</li>
+              <li>Upgrade and migration help</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Rewrite Automation</h2>
+        <p class="section-intro">
+          Rewrite Automation is an Ignition-focused integrator. We combine
+          controls, data, and field experience so your Ignition project feels
+          straightforward instead of chaotic.
+        </p>
+
+        <div class="about-grid">
+          <div>
+            <h3>Ignition-Only Focus</h3>
+            <p>
+              Rather than chasing every platform, we invest deeply in Ignition:
+              gateway design, scripting, Perspective, MES, and secure
+              architectures. That focus translates into clean projects and
+              faster delivery.
+            </p>
+          </div>
+          <div>
+            <h3>How We Work</h3>
+            <ul>
+              <li>Discovery sessions with operators & engineers</li>
+              <li>Architecture & standards first, then screens</li>
+              <li>Short, testable implementation cycles</li>
+              <li>Documentation and hand-off training built in</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2>Contact & Project Intake</h2>
+        <p class="section-intro">
+          Share a bit about your plant and current systems. We’ll follow up
+          with a short Ignition-focused call and a simple next-steps plan.
+        </p>
+
+        <div class="contact-grid">
+          <form class="contact-form" method="post" action="#">
+            <!-- Replace action with Formspree / Netlify endpoint when ready -->
+            <div class="form-row">
+              <label for="name">Name*</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+
+            <div class="form-row">
+              <label for="company">Company</label>
+              <input id="company" name="company" type="text" />
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email*</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+
+            <div class="form-row">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" />
+            </div>
+
+            <div class="form-row">
+              <label for="message">Project / Challenge*</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                placeholder="Describe your process, current systems, and what you want Ignition to improve."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn primary full-width">
+              Submit &amp; Request Call
+            </button>
+          </form>
+
+          <div class="contact-side">
+            <h3>What Happens Next</h3>
+            <ol>
+              <li>We review your notes and current stack.</li>
+              <li>Short Ignition discovery call (30–45 minutes).</li>
+              <li>High-level architecture & project outline.</li>
+            </ol>
+            <p class="contact-note">
+              Prefer email? Reach us at
+              <strong>info@rewriteautomation.com</strong>
+              (replace with your real address).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> Rewrite Automation. All rights reserved.</p>
+      <p class="footer-small">
+        Ignition is a trademark of Inductive Automation. Rewrite Automation is
+        an independent integrator.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.nav');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('nav-open');
+    });
+
+    // Year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
